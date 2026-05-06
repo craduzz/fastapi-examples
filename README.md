@@ -5,6 +5,24 @@ This is a collection of examples for FastAPI.
 It has been developed for the purpose of learning.
 
 The project has been developed using Python 3.12.13 and FastAPI.
+## Setup
+
+``` markdown
+Note: This project is built with UV package manager, it's recommended to use it.   
+You can find the installation instructions on: 
+https://docs.astral.sh/uv/getting-started/installation/
+```
+
+1. Clone the repository
+2. Install dependencies via terminal with:
+```bash
+uv sync
+```
+3. Run the application via terminal with: 
+```bash
+uvicorn src.main:app --port 8080
+```
+4. Access the application at `http://localhost:8000`
 
 ## Endpoints
 
