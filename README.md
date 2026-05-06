@@ -26,7 +26,7 @@ uvicorn src.main:app --port 8080
 
 ## Endpoints
 
-# Root
+### Root
 
 `GET /`
 
@@ -87,7 +87,7 @@ Missing parameter response:
 
 ------------------------------------------------------------
 
-Lookup Entry
+### Task1: Lookup Entry
 
 `GET /task1/look`
 
